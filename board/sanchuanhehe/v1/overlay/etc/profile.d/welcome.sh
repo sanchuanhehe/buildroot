@@ -1,5 +1,6 @@
 #!/bin/sh
-echo -e "\033[36m                                                                 
+cat << "EOF"
+\033[36m                                                                 
                                _                               _              _            
                               | |                             | |            | |           
   ___    __ _   _ __     ___  | |__    _   _    __ _   _ __   | |__     ___  | |__     ___ 
@@ -12,4 +13,5 @@ echo -e "\033[36m
 this is a custom build of linux for SanchuanHehe V1 board.
 \033[32m
 Welcome to SanchuanHehe V1 Linux!
-"
+\033[0m
+EOF
