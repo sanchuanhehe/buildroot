@@ -10,4 +10,4 @@ cat <<EOF
                                                                                         
 EOF
 echo "this is a custom build of linux for SanchuanHehe V1 board."
-echo "Welcome to SanchuanHehe V1 Linux!\033[0m"
+echo "Welcome to SanchuanHehe V1 Linux!"
