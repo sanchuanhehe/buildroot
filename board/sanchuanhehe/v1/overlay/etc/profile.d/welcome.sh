@@ -1,18 +1,15 @@
 #!/bin/sh
-echo -e "\033[36m                                                                 hhhhhhh                                                                 hhhhhhh                                hhhhhhh                                 
-                                                                       h:::::h                                                                 h:::::h                                h:::::h                                 
-                                                                       h:::::h                                                                 h:::::h                                h:::::h                                 
-                                                                       h:::::h                                                                 h:::::h                                h:::::h                                 
-    ssssssssss     aaaaaaaaaaaaa  nnnn  nnnnnnnn        cccccccccccccccch::::h hhhhh       uuuuuu    uuuuuu    aaaaaaaaaaaaa  nnnn  nnnnnnnn    h::::h hhhhh           eeeeeeeeeeee    h::::h hhhhh           eeeeeeeeeeee    
-  ss::::::::::s    a::::::::::::a n:::nn::::::::nn    cc:::::::::::::::ch::::hh:::::hhh    u::::u    u::::u    a::::::::::::a n:::nn::::::::nn  h::::hh:::::hhh      ee::::::::::::ee  h::::hh:::::hhh      ee::::::::::::ee  
-ss:::::::::::::s   aaaaaaaaa:::::an::::::::::::::nn  c:::::::::::::::::ch::::::::::::::hh  u::::u    u::::u    aaaaaaaaa:::::an::::::::::::::nn h::::::::::::::hh   e::::::eeeee:::::eeh::::::::::::::hh   e::::::eeeee:::::ee
-s::::::ssss:::::s           a::::ann:::::::::::::::nc:::::::cccccc:::::ch:::::::hhh::::::h u::::u    u::::u             a::::ann:::::::::::::::nh:::::::hhh::::::h e::::::e     e:::::eh:::::::hhh::::::h e::::::e     e:::::e
- s:::::s  ssssss     aaaaaaa:::::a  n:::::nnnn:::::nc::::::c     ccccccch::::::h   h::::::hu::::u    u::::u      aaaaaaa:::::a  n:::::nnnn:::::nh::::::h   h::::::he:::::::eeeee::::::eh::::::h   h::::::he:::::::eeeee::::::e
-   s::::::s        aa::::::::::::a  n::::n    n::::nc:::::c             h:::::h     h:::::hu::::u    u::::u    aa::::::::::::a  n::::n    n::::nh:::::h     h:::::he:::::::::::::::::e h:::::h     h:::::he:::::::::::::::::e 
-      s::::::s    a::::aaaa::::::a  n::::n    n::::nc:::::c             h:::::h     h:::::hu::::u    u::::u   a::::aaaa::::::a  n::::n    n::::nh:::::h     h:::::he::::::eeeeeeeeeee  h:::::h     h:::::he::::::eeeeeeeeeee  
-ssssss   s:::::s a::::a    a:::::a  n::::n    n::::nc::::::c     ccccccch:::::h     h:::::hu:::::uuuu:::::u  a::::a    a:::::a  n::::n    n::::nh:::::h     h:::::he:::::::e           h:::::h     h:::::he:::::::e           
-s:::::ssss::::::sa::::a    a:::::a  n::::n    n::::nc:::::::cccccc:::::ch:::::h     h:::::hu:::::::::::::::uua::::a    a:::::a  n::::n    n::::nh:::::h     h:::::he::::::::e          h:::::h     h:::::he::::::::e          
-s::::::::::::::s a:::::aaaa::::::a  n::::n    n::::n c:::::::::::::::::ch:::::h     h:::::h u:::::::::::::::ua:::::aaaa::::::a  n::::n    n::::nh:::::h     h:::::h e::::::::eeeeeeee  h:::::h     h:::::h e::::::::eeeeeeee  
- s:::::::::::ss   a::::::::::aa:::a n::::n    n::::n  cc:::::::::::::::ch:::::h     h:::::h  uu::::::::uu:::u a::::::::::aa:::a n::::n    n::::nh:::::h     h:::::h  ee:::::::::::::e  h:::::h     h:::::h  ee:::::::::::::e  
-  sssssssssss      aaaaaaaaaa  aaaa nnnnnn    nnnnnn    cccccccccccccccchhhhhhh     hhhhhhh    uuuuuuuu  uuuu  aaaaaaaaaa  aaaa nnnnnn    nnnnnnhhhhhhh     hhhhhhh    eeeeeeeeeeeeee  hhhhhhh     hhhhhhh    eeeeeeeeeeeeee  
-\033[0m"
+echo -e "\033[36m                                                                 
+                               _                               _              _            
+                              | |                             | |            | |           
+  ___    __ _   _ __     ___  | |__    _   _    __ _   _ __   | |__     ___  | |__     ___ 
+ / __|  / _` | | '_ \   / __| | '_ \  | | | |  / _` | | '_ \  | '_ \   / _ \ | '_ \   / _ \
+ \__ \ | (_| | | | | | | (__  | | | | | |_| | | (_| | | | | | | | | | |  __/ | | | | |  __/
+ |___/  \__,_| |_| |_|  \___| |_| |_|  \__,_|  \__,_| |_| |_| |_| |_|  \___| |_| |_|  \___|
+                                                                                           
+                                                                                        
+\033[0m
+this is a custom build of linux for SanchuanHehe V1 board.
+\033[32m
+Welcome to SanchuanHehe V1 Linux!
+"
