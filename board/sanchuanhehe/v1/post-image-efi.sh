@@ -7,3 +7,5 @@ sed -i "s/UUID_TMP/$UUID/g" "$BINARIES_DIR/efi-part/EFI/BOOT/grub.cfg"
 sed "s/UUID_TMP/$UUID/g" board/sanchuanhehe/v1/genimage-efi.cfg > "$BINARIES_DIR/genimage-efi.cfg"
 support/scripts/genimage.sh -c "$BINARIES_DIR/genimage-efi.cfg"
 echo "EFI image created successfully."
+
+cp $BINARIES_DIR/rootfs.cpio.gz $BINARIES_DIR/initrd.img
