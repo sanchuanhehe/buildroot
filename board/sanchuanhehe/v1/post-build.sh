@@ -4,7 +4,6 @@ set -e
 
 BOARD_DIR=$(dirname "$0")
 
-cp $BINARIES_DIR/rootfs.cpio.gz $BINARIES_DIR/initrd.img
 # Detect boot strategy, EFI or BIOS
 if [ -d "$BINARIES_DIR/efi-part/" ]; then
     cp -f "$BOARD_DIR/grub-efi.cfg" "$BINARIES_DIR/efi-part/EFI/BOOT/grub.cfg"
