@@ -1,5 +1,4 @@
 #!/bin/sh
-echo "\033[36m"
 cat <<EOF
                                _                               _              _            
                               | |                             | |            | |           
@@ -10,7 +9,5 @@ cat <<EOF
                                                                                             
                                                                                         
 EOF
-echo "\033[0m"
 echo "this is a custom build of linux for SanchuanHehe V1 board."
-echo "\033[32mWelcome to SanchuanHehe V1 Linux!\033[0m"
-echo "\033[0m"
+echo "Welcome to SanchuanHehe V1 Linux!\033[0m"
