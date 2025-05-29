@@ -1,17 +1,16 @@
 #!/bin/sh
-cat << "EOF"
-\033[36m                                                                 
+echo "\033[36m"
+cat <<EOF
                                _                               _              _            
                               | |                             | |            | |           
   ___    __ _   _ __     ___  | |__    _   _    __ _   _ __   | |__     ___  | |__     ___ 
- / __|  / _` | | '_ \   / __| | '_ \  | | | |  / _` | | '_ \  | '_ \   / _ \ | '_ \   / _ \
+ / __|  / _\` | | '_ \   / __| | '_ \  | | | |  / _\` | | '_ \  | '_ \   / _ \ | '_ \   / _ \\
  \__ \ | (_| | | | | | | (__  | | | | | |_| | | (_| | | | | | | | | | |  __/ | | | | |  __/
  |___/  \__,_| |_| |_|  \___| |_| |_|  \__,_|  \__,_| |_| |_| |_| |_|  \___| |_| |_|  \___|
-                                                                                           
+                                                                                            
                                                                                         
-\033[0m
-this is a custom build of linux for SanchuanHehe V1 board.
-\033[32m
-Welcome to SanchuanHehe V1 Linux!
-\033[0m
 EOF
+echo "\033[0m"
+echo "this is a custom build of linux for SanchuanHehe V1 board."
+echo "\033[32mWelcome to SanchuanHehe V1 Linux!\033[0m"
+echo "\033[0m"
