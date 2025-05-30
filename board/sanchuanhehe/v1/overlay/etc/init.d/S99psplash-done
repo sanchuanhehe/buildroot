@@ -2,7 +2,9 @@
 
 start() {
     printf "Finishing psplash: "
-    /usr/bin/psplash-done
+    for pid in $(pidof psplash); do
+        kill -QUIT "$pid"
+    done
     [ $? = 0 ] && echo "OK" || echo "FAIL"
 }
 
