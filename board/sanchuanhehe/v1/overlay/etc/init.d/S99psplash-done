@@ -1,0 +1,18 @@
+#!/bin/sh
+
+start() {
+    printf "Finishing psplash: "
+    /usr/bin/psplash-done
+    [ $? = 0 ] && echo "OK" || echo "FAIL"
+}
+
+case "$1" in
+    start|stop|restart|reload)
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart|reload}"
+        exit 1
+esac
+
+exit $?
