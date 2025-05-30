@@ -24,8 +24,3 @@ for i in /etc/init.d/S??* ;do
 	    ;;
     esac
 done
-
-# 自动通过 DHCP 获取 IP 地址
-if [ -x /sbin/udhcpc ]; then
-    /sbin/udhcpc -i eth0 -q &
-fi
